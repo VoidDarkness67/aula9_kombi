@@ -1,0 +1,133 @@
+/* ( atalho(*) aplicações gerais ) */
+
+*{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    
+    }
+    
+
+    /* (.) chama uma classe, com (>) chamo a tag "a" */
+    .cabeçario > a {
+    
+    text-decoration: none;
+    color: aliceblue;
+    
+    }
+    
+    /* estilização do header */
+    .cabeçario {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .menu{
+display: flex;
+
+
+
+
+    }
+
+    .menu > li {
+
+margin-left: 10px;
+
+
+    }
+
+
+ .menu > li > a {
+padding: 10px;
+background-color: rgb(100, 20, 206);
+display: block;
+color: rgb(255, 255, 255);
+text-decoration: none;
+ }
+
+h1{
+text-align: center;
+margin-top: 50px;
+
+}
+
+
+img {
+max-width: 400px;
+display: block;
+
+
+
+}
+
+.flex {
+    flex-wrap: wrap;
+margin-bottom: 80px;
+display: flex;
+max-width: 800px;
+margin:0 auto;
+margin-bottom: 90px;
+}
+
+.flex > div{
+margin: 10px;
+flex: 1  1 200px;
+
+}
+
+ 
+ body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+.templantes{
+background-color: #000000;
+padding: 30px;
+color: rgb(255, 0, 0);
+
+}
+ 
+
+
+/* AQUI IREMOS ESTILIZAR NOSSO RODAPÉ */
+
+
+.rodape {
+    display: flex; /* Responsável por alinhar os itens um ao lado do outro dentro do header */
+    justify-content: space-between; /* Responsável por espaçar os itens (início e fim) */
+    padding: 60px; /* Preenchimento do nosso cabeçalho, ou seja o tamanho que ficará o Header */
+    align-items: center; /* Alinhar os itens ao centro */
+    flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adaptar a telas menores */
+    background-color: rgb(0, 0, 0); /* Cor de fundo*/
+}
+
+.rodape > a:hover{ /* Chamamos nossa Tag "a" para modificação com ao passar o mouse */
+   color: yellow; /* cor que a letra ficará */
+   transition: 0.8s; /* O tempo que irá ocorrer a ação */
+}
+
+.rodape > a { /* Chamamos aqui nossa Tag "a" para modificação padrão */
+    color: white; /*Definimos uma cor padrão */
+    margin-right: 10px; /* Atribuimos um espaçamento a direita*/
+    font-size: 15px;
+}
+
+
+.menu > li > i { /* Aqui chamamos os nomes que estão dentro da LI ou seja tag "a" para estilização */
+
+    padding: 10px; /* Espaçamento dentro da caixa */
+    background: rgb(103, 184, 235); /* Cor da caixa */
+}
+
+
+/* FIM DA ESTILIZAÇÃO DO FOOTER */
